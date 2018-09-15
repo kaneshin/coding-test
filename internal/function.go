@@ -8,7 +8,7 @@ func F1(x ...Float) Float {
 		return 0.
 	}
 	x0 := x[0]
-	return x0*x0 - x0 - 0
+	return x0*x0 - x0 - 1
 }
 
 func F2(x ...Float) Float {
